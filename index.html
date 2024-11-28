@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Compass</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+    <h1>Welcome to crop compass</h1>
+    <p>Crop Compass is a crop recommendation system, created to elevate your agricultural practices. This system supports farmers in Kenya by identifying the most suitable crops for different regional conditions in various counties.</p>
+    <p>select a county and subcounty to receive a tailored crop recommendation. The system will provide you with crops that grow well in a specific county based on climate and soil type.</p>
+    
+<form id="recommendationform">
+<label for="region"> Select a county and subcounty:</label><br>
+<select name="region" id="region">
+    <option value="" disabled selected>Select a county</option>
+    <option value="LAIKIPIA COUNTY(Laikipia North)">LAIKIPIA COUNTY(Laikipia North)</option>
+    <option value="LAIKIPIA COUNTY(Laikipia Central)">LAIKIPIA COUNTY(Laikipia Central)</option>
+    <option value="LAIKIPIA COUNTY(Laikipia East)">LAIKIPIA COUNTY(Laikipia East)</option>
+    <option value="LAIKIPIA COUNTY(Laikipia West)">LAIKIPIA COUNTY(Laikipia West)</option>
+    <option value="NYERI COUNTY(Kieni East)">NYERI COUNTY(Kieni East)</option>
+    <option value="NYERI COUNTY(Kieni West)">NYERI COUNTY(Kieni West)</option>
+    <option value="NYERI COUNTY(Mathira East)">NYERI COUNTY(Mathira East)</option>
+    <option value="NYERI COUNTY(Mathira West)">NYERI COUNTY(Mathira West)</option>
+    <option value="NYERI COUNTY(Nyeri Central)">NYERI COUNTY(Nyeri Central)</option>
+    <option value="NYERI COUNTY(Mukurweini)">NYERI COUNTY(Mukurweini)</option>
+    <option value="NYERI COUNTY(Tetu)">NYERI COUNTY(Tetu)</option>
+    <option value="NYERI COUNTY(Othaya)">NYERI COUNTY(Othaya)</option>
+</select><br>
+<button>Get Recommendation</button>
+</form>
+<h3>Recommendation</h3>
+<p id="recommendation"></p>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
