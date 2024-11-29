@@ -16,11 +16,11 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/crop-compass.git
+    git clone https://github.com/Roseciku/CROP_COMPASS.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd crop-compass
+    cd CROP_COMPASS
     ```
 3. Open `index.html` in your preferred web browser.
 
@@ -35,23 +35,18 @@ Contributions are what make the open-source community such an amazing place to l
 
 To contribute:
 1. Fork the project.
-2. Create your feature branch (`git checkout -b feature/NewFeature`).
+2. Create your feature branch (`git checkout -b NewFeature`).
 3. Commit your changes (`git commit -m 'Add some NewFeature'`).
-4. Push to the branch (`git push origin feature/NewFeature`).
+4. Push to the branch (`git push origin NewFeature`).
 5. Open a pull request.
 
 ## Roadmap
-- **Q1 2025**: Full-scale launch in target counties.
-- **Q3 2025**: Expansion to other Kenyan counties.
-- **Q1 2026**: Introduction of additional features (e.g., pest management advice).
+- **2025**: Introduction of additional features (e.g., pest management advice).
 
 ### Features in Progress
 - Adding more counties and subcounties to the crop recommendation system.
 
-## License
-Distributed under the MIT License. See `LICENSE` for more information.
-
 ## Contact
-Rosemary Wangui - [your-email@example.com](mailto:your-email@example.com)
+Rosemary Wangui - [rosecikumary@gmail.com]
 
-Project Link: [https://github.com/your-username/crop-compass](https://github.com/your-username/crop-compass)
+Project Link: [https://github.com/Roseciku]

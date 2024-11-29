@@ -11,6 +11,7 @@ body{
     border-radius: 5px;
     margin-bottom: 20px;
     font-family: "Roboto", serif;
+    font-size: 18px;
 }
 
 button{
@@ -22,6 +23,7 @@ button{
     border: 0;
     border-radius: 10px;
     color: white;
+    margin-bottom: 20px;
 }
 
 #container{
@@ -31,4 +33,52 @@ button{
     margin: auto;
     background-color: #F7DCB9;
 
+}
+
+#recommendation_div{
+width: 60%;
+justify-content: center;
+align-items: center;
+margin: auto;
+display: none;
+background-color: white;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);;
+padding: 20px;
+font-size: 18px;
+}
+
+#closebtn{
+    width: 30px; 
+    font-size: 30px; 
+    height: 40px;
+    background-color: white;
+    color: #914F1E;
+    font-weight: 900;
+}
+#button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+h3{
+    margin-top: 5px;
+}
+
+@media (max-width:768px) {
+
+    #Container{
+    width: 100%;
+}
+    button{
+        width: 80%;
+        font-size: 15px;
+        height: 40px;
+    }
+    #region{
+        width: 80%;
+        font-size: 12px;
+    }
+    #recommendation_div{
+        font-size: 15px;
+    }
 }
